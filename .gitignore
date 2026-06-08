@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+mail.txt
+.venv/
+venv/
