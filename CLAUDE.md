@@ -20,6 +20,16 @@ shaped as `{ "statusCode": ..., "body": ... }`).
 > **Known inconsistencies** below). Treat the notebook logic as the
 > ground-truth reference for the crawling algorithm.
 
+## Communication language
+
+- **Reply to the user in Korean (한국어).** The maintainer prefers Korean for
+  all chat responses, explanations, and summaries.
+- Internal reasoning may be in English, but every user-facing message —
+  including status updates, error explanations, and questions — must be written
+  in Korean.
+- Code, identifiers, and commit messages stay in English; only the conversational
+  response language is Korean. Existing in-code comments remain Korean as before.
+
 ## Repository layout
 
 ```
